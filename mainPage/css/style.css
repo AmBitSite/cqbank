@@ -114,7 +114,9 @@ a{
             align-items: center;
 
 }
-
+.nav-btn{
+    display: none;
+}
 .nav__login {
     margin-right: 20px;
     -webkit-transition: color .5s;
