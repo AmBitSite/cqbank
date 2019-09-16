@@ -1,0 +1,43 @@
+@media (max-width:1230px){
+	.account__header{
+		margin-top: 40px;
+	}
+	.our-client{
+		height: 400px;
+		background-size: cover;
+		background-position: center;
+	}
+	.out-client__header{
+		margin-top: 80px;
+	}
+	.why-bank__header{
+		margin-top: 60px;
+	}
+}
+@media (max-width:1124px){
+	.account{
+		margin-top: -80px;
+	}
+	.account__header{
+		margin-top: 0;
+	}
+}
+@media (max-width:900px){
+	.account{
+		margin-top: -150px;
+	}
+	.account-block, .account-block:nth-of-type(2), .account-block:nth-of-type(3), 
+	.account-block:nth-of-type(4), .account-block:nth-of-type(5){
+		width: 700px;
+		height: 120px;
+		margin: 0 auto;
+		background-size: contain;
+	}
+	.account-block:nth-of-type(2n+1) .account-block__text{
+		margin-left: 120px;
+	}
+	.our-client__text{
+		width: auto;
+		padding: 0 20px;
+	}
+}
