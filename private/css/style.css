@@ -1,0 +1,106 @@
+.header{
+    background-image: url(../img/header.png);
+    height: 580px;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.account__header{
+    margin-top: 140px;
+}
+.account-block{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 819px;
+    height: 160px;
+    background-repeat: no-repeat;
+}
+.account-block:nth-child(2){
+    background-image: url(../img/1step.png);
+    background-position: left;
+    margin-bottom: 20px;
+}
+.account-block:nth-child(3){
+    background-image: url(../img/2step.png);
+    background-size: 110%;
+    background-position: right;
+    margin-bottom: 20px;
+} 
+.account-block:nth-child(4){
+    background-image: url(../img/3step.png);
+    background-size: 80%;
+    background-position-x: 25%;
+    margin-bottom: 20px;
+    
+}
+.account-block:nth-child(5){
+    background-image: url(../img/4step.png);
+    background-position-x: 100%;
+    background-size: 120%;
+    width: 879px;
+    margin-bottom: 20px;
+} 
+.account-block__text{
+    display: inline-block;
+    width: 450px;
+    font-size: 18px;
+}
+.account-block__text_ml{
+    margin-left: 50px;
+}
+.account-block__text_mr{
+    margin-right: 50px;
+}
+.account__btn_mb{
+    margin-bottom: 70px;
+}
+.our-client{
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/privateOurClients.png)
+}
+.out-client__header{
+    margin-top:140px;
+}
+.our-client__text{
+    margin-top:40px;
+    display: inline-block;
+    width:850px;
+    text-align: center;
+}
+.why-bank{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 140px;
+}
+.why-bank__header{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+.why-bank-container{
+    display: flex;
+    justify-content: center;
+}
+.why-bank-wrap:nth-child(1){
+    margin-right: 40px;
+}
+.why-bank-wrap{
+    width: 33%;
+}
+.why-bank-wrap__item{
+    list-style-image: url(../img/check.png);
+    margin-bottom: 10px;
+}
+.why-bank-wrap__text{
+    position: relative;
+    top:-5px;
+}
+.why-bank-wrap__text_strong{
+    font-weight: bold
+}

@@ -1,16 +1,3 @@
-$(window).scroll(function () {
-    if ($(window).scrollTop() >= 100) {
-        $('nav').addClass('nav_scroll');
-        $(".toTop").fadeIn();   
-    } else {
-        $('nav').removeClass('nav_scroll');
-        $('.toTop').fadeOut();
-    }
-});
-
-$('.toTop').click(function() {
-    $('body,html').animate({scrollTop:0},800);
-});
 $(".online-bank__btn").click(function(){
     $(".hide-menu").fadeIn()
 })
@@ -35,7 +22,6 @@ $(".nav-btn").click(function(){
         $(".nav-btn__line:nth-child(3)").removeClass("hide")
     }  
 })
-
 let test = document.querySelector("hide-menu__id");
 let parent = document.querySelector("hide-menu-block")
 let test2 = document.querySelector("hide-menu__pass")
@@ -56,4 +42,3 @@ mainParent.addEventListener("click", (e)=>{
         else if(test2.value == "")test2.value = "Password:"
     }
 })
-

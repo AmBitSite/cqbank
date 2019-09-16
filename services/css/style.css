@@ -1,0 +1,167 @@
+.header{
+    background-image: url(../img/header.png);
+    height: 580px;
+}
+.header-caption_style{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top:15px;
+}
+.header-text{
+    width: 980px;
+    text-align: center;
+}
+.header-text_style{
+    color:#fff;
+    padding: 30px 0;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.cash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 90px;
+}
+.cash__header{
+    margin-top:40px;
+    margin-bottom: 60px;
+}
+.cash-block-text{
+    width: 750px;
+    text-align: center;
+}
+.crupto{
+    background-image: url(../img/blockchain-slider-cotmcy.png);
+    height: 780px;
+    background-position-x: left;
+    background-size: 210%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.crupto__header{
+    margin-top:40px;
+}
+.crupto-block-text{
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.crupto-block__text_strong{
+    font-weight: bold;
+}
+.crupto-block-img{
+    margin:30px 0;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clearance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+}
+.clearance__header{
+    margin-top:180px;
+    margin-bottom: 60px;
+}
+.clearance-block-text{
+    width:900px;
+    text-align: center;
+}
+.gold-trade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/gold-trade.png);
+    height: 570px;
+}
+.gold-trade__header{
+    margin-top:180px;
+    margin-bottom: 60px;
+}
+.gold-trade-block-text{
+    width:900px;
+    text-align: center;
+}
+.investment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.investment__header{
+    margin-top:180px;
+    margin-bottom: 60px;
+}
+
+
+.company-formation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 950px;
+    background-image: url(../img/company-formation.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;;
+}
+.company-formation__header{
+    margin-top: 75px;
+    margin-bottom: 65px;
+}
+.company-formation-text-block{
+    text-align: center;
+    width:1000px;
+}
+.company-formation__second-header{
+    color: #505050;
+    font-size: 17px;
+    margin-top:20px;
+    margin-bottom: 25px;
+}
+.company-formation-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    margin-top:60px;
+}
+.company-formation-container-block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 133px;
+}
+.company-formation-container-block__img{
+    display: block;
+    margin-bottom:25px;
+    align-self: center;
+    line-height: 0;
+    width: 81px;
+    background-size: 100%;
+}
+.company-formation-container-block__img_size-L{
+    background-size: 70%;
+}
+.company-formation-container-block__img_size-X{
+    background-size: 140%;
+    width: 95px
+}
+.company-formation-container-block__img_size-XL{
+    background-size: 140%;
+    width: 105px
+}
+.company-formation-container-block__text{
+    font-size: 15px;
+    color:#505050;
+    line-height: 24px;
+    text-align: center;
+}
