@@ -70,6 +70,9 @@
 		background-size: cover;
 		background-position-y: 75%;
 	}
+	.changeHeight{
+		height: 350px;
+	}	
 	.nav{
     background-color: rgba(0, 0, 0, 0.767);
     -webkit-transition: height, .5s;
