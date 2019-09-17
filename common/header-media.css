@@ -66,9 +66,8 @@
 }
 @media (max-width:670px){
 	.header{
-		height: 140px;
-		background-size: cover;
-		background-position-y: 75%;
+		height: 350px;
+		background-size: 100% 100%;
 	}
 	.changeHeight{
 		height: 350px;
@@ -202,4 +201,15 @@
   .openAccount__header{
     font-size: 1.3em;
   }
+}
+@media (max-width:560px){
+	.header{
+		background-size: 130% 100%;
+		background-position: center;
+	}
+}
+@media (max-width:420px){
+	.header{
+		background-size: 160% 100%;
+	}
 }

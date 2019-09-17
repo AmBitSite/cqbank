@@ -122,7 +122,7 @@
 		font-size: 15px;
 	}
 	.cash__header{
-		margin: 40px 0 20px 0;
+		margin: 40px 0 30px 0;
 	}
 	.cash-block-text{
 		width: 95%;
@@ -134,7 +134,13 @@
 		width: 95%;
 	}
 	.clearance{
-		margin-bottom: 0;
+		margin-bottom: 20px;
+	}
+	.clearance__header, .gold-trade__header{
+		margin: 60px auto 30px auto;
+	}
+	.investment__header{
+		margin-bottom: 30px;
 	}
 	.company-formation{
 		background-size: 120% 70%;
