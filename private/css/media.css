@@ -39,6 +39,7 @@
 	}
 }
 @media (max-width:1024px){
+
 	.header-caption__text{
 		font-size: 0.87em;
 	}
@@ -46,7 +47,7 @@
 		margin: 20px;
 	}
 	.account__header{
-		margin-top: 0;
+		margin-top: 0px;
 	}
 }
 @media (max-width:900px){
@@ -154,24 +155,85 @@
 		line-height: 20px;
 		margin-bottom: 20px;
 	}
+	.account-block__text-sub, .why-bank-wrap{
+		width: 85%;
+	}
 	.our-client{
 		height: 250px;
-	}
-	.why-bank{
-		padding-bottom: 50px;
 	}
 	.out-client__header, .our-client__header, .why-bank__header{
 		font-size: 24px;
 		margin: 30px 0 20px 0;
 	}
-	.out-client__header{
-		
-	}
 	.our-client__text{
+		width: auto;
 		margin-top: 30px;
+		padding: 0 30px;
 		font-size: 14px;
+	}
+	.why-bank{
+		padding-bottom: 50px;
+	}
+	.why-bank-wrap:nth-last-of-type(1), .why-bank-wrap:nth-last-of-type(2){
+		margin: 16px 0;
+		padding: 0 10px 0 35px;
 	}
 	.why-bank-wrap__text{
 		font-size: 14px;	
+	}
+}
+@media (max-width:560px){
+	.account, .our-client, .why-bank{
+		width: 95%;
+		box-sizing: border-box;
+		text-align: justify;
+	}
+	.account-block:nth-of-type(n) {
+		width: 90%;
+		height: 130px;
+		margin: 0 0 30px 0 ;
+		position: relative;
+		background-position-y: 0;
+	}
+	.account .account-block .account-block__text{
+		display: block;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		margin: 0;
+		padding: 0 0 0 5px;
+	}
+	.account-block__text-sub{
+		display: block;
+		width: 90%;
+		padding: 0 20px 0 35px;
+	}
+	.our-client__text{
+		padding: 0 20px 0 35px;
+		text-align: justify;
+	}
+	.why-bank-container{
+		flex-flow: column nowrap;
+		justify-content: space-between;
+	}
+	.why-bank-wrap:nth-of-type(n){
+		width: 90%;
+		padding-right: 0;
+	}
+}
+@media (max-width:420px){
+	.account__header{
+		text-align: center;
+	}
+	.account__header, .out-client__header, .why-bank__header{
+		font-size: 20px;
+		margin: 30px 0 20px 0;
+	}
+	.out-client__header{
+		margin-bottom: 0;
+	}
+	.why-bank__header{
+		margin-top: 70px;
 	}
 }
