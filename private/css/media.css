@@ -19,7 +19,7 @@
 		margin-top: 60px;
 	}
 	.our-client{
-		height: 400px;
+		min-height: 400px;
 		background-size: cover;
 		background-position: center;
 	}
@@ -57,7 +57,7 @@
 	.account-block, .account-block:nth-of-type(2), .account-block:nth-of-type(3), 
 	.account-block:nth-of-type(4){
 		width: 700px;
-		height: 120px;
+		min-height: 120px;
 		margin: 0 auto 20px auto;
 	}
 	.account-block:nth-of-type(1){
@@ -81,7 +81,7 @@
 		margin-left: 120px;
 	}
 	.our-client{
-		height: 300px;
+		min-height: 300px;
 	}
 	.out-client__header{
 		margin-top: 20px;
@@ -106,7 +106,7 @@
 	.account-block, .account-block:nth-of-type(2), .account-block:nth-of-type(3), 
 	.account-block:nth-of-type(4) {
 		width: 500px;
-		height: 100px;
+		min-height: 100px;
 	}
 	.account-block:nth-of-type(1){
 		background-size: 80%;
@@ -159,7 +159,7 @@
 		width: 85%;
 	}
 	.our-client{
-		height: 250px;
+		min-height: 250px;
 	}
 	.out-client__header, .our-client__header, .why-bank__header{
 		font-size: 24px;
@@ -190,17 +190,14 @@
 	}
 	.account-block:nth-of-type(n) {
 		width: 90%;
-		height: 130px;
+		min-height: 130px;
 		margin: 0 0 30px 0 ;
-		position: relative;
+		padding: 40px 0 0 0; 
 		background-position-y: 0;
 	}
 	.account .account-block .account-block__text{
 		display: block;
 		width: 100%;
-		position: absolute;
-		bottom: 0;
-		left: 0;
 		margin: 0;
 		padding: 0 0 0 5px;
 	}
