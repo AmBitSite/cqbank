@@ -1,6 +1,6 @@
 .header-caption__text{
 	padding: 0 10px;
-	font-size: 1.45em;
+	font-size: 36px;
 }
 .header-caption__text :first-child, .header-caption__text :last-child {
 	display: block;
@@ -39,7 +39,6 @@
 	}
 }
 @media (max-width:1024px){
-
 	.header-caption__text{
 		font-size: 0.87em;
 	}
@@ -191,7 +190,7 @@
 		font-size: 14px;	
 	}
 }
-@media (max-width:560px){}
+@media (max-width:560px){
 	.header-caption{
 		margin-top: 160px;
 	}
@@ -199,7 +198,7 @@
 		font-size: 20px;
 		text-align: center;
 	}
-	.header-caption__text :first-child, .header-caption__text :last-child {
+	.header-caption__text :first-child, .header-caption__text :last-child{
 		line-height: 30px;
 	}
 	.account, .our-client, .why-bank{
@@ -243,6 +242,7 @@
 		width: 90%;
 		padding-right: 0;
 	}
+}
 @media (max-width:420px){
 	.header-caption{
 		margin-top: 140px;
