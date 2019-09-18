@@ -139,11 +139,13 @@
     transition: border, .5s;
   }
   .nav-btn__line-1st{
-    transform: rotate(40deg)translateX(2px);
+    -webkit-transform: rotate(40deg)translateX(2px);
+            transform: rotate(40deg)translateX(2px);
     margin-top:11px;
   }
   .nav-btn__line-2st{
-    transform: rotate(-40deg) translateY(-1px);
+    -webkit-transform: rotate(-40deg) translateY(-1px);
+            transform: rotate(-40deg) translateY(-1px);
     margin-bottom: 11px;
 
   }
@@ -174,9 +176,13 @@
     font-size: 1.3em;
   }
   .header-container-img_around{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around
   }
   .online-bank__header{
     font-size: 1.4em;

@@ -81,7 +81,8 @@
 		margin: 25px 0 0 0;
 	}
 	.header-text{
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 		width: 100%;
 		padding: 15px 20px;
 	}
@@ -136,8 +137,12 @@
 	.clearance{
 		margin-bottom: 20px;
 	}
-	.clearance__header, .gold-trade__header{
+	.clearance__header, .gold-trade__header, .company-formation__header{
 		margin: 60px auto 30px auto;
+	}
+	.gold-trade{
+		background-size: cover;
+		background-position: center;
 	}
 	.investment__header{
 		margin-bottom: 30px;
@@ -147,11 +152,74 @@
 	}
 }
 @media (max-width:670px){
-
+	.header{
+		height: 400px;
+		background-size: 100% 100%;
+	}
+	.header-caption{
+		margin-top: 150px;
+	}
 }
 @media (max-width:560px){
-
+	.header{
+		height: 480px;
+		background-size: 250% 100%;
+		background-position-x: 70%;
+	}
+	.crupto{
+		background-size: cover;
+		background-position-x: 70%;
+	}
+	.crupto-block-img{
+		min-height: 250px;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-flow: column nowrap;
+		        flex-flow: column nowrap;
+	}
+	.company-formation{
+		margin-bottom: 50px;
+		background-size: cover;
+		background-position: center;
+	}
+	.company-formation-container{
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: space-evenly;
+		    -ms-flex-pack: space-evenly;
+		        justify-content: space-evenly;
+		margin-top: 30px;
+	}
+	.company-formation-container-block{
+		margin-top: 20px;
+	}
 }
 @media (max-width:420px){
-
+	.header{
+		height: 560px;
+		background-size: 250% 100%;
+		background-position-x: 50%;
+	}
+	.cash, .crupto, .clearance, .gold-trade, .investment, .company-formation{
+		padding: 0 15px 60px 15px;
+	}
+	.cash-block-text, .crupto-block-text, .clearance-block-text, .gold-trade-block-text, 
+	.investment-block-text, .company-formation-text-block{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: justify;
+	}
+	.clearance{
+		margin: 0;
+	}
+	.gold-trade__header{
+		margin-top: 30px;
+	}
+	.investment{
+		margin: 30px 0 0 0;
+	}
+	.investment .header-button {
+		margin-top: 40px;
+	}
 }

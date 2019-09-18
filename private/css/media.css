@@ -191,7 +191,7 @@
 		font-size: 14px;	
 	}
 }
-@media (max-width:560px){
+@media (max-width:560px){}
 	.header-caption{
 		margin-top: 160px;
 	}
@@ -204,7 +204,8 @@
 	}
 	.account, .our-client, .why-bank{
 		width: 95%;
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 		text-align: justify;
 	}
 	.account-block:nth-of-type(n) {
@@ -230,14 +231,18 @@
 		text-align: justify;
 	}
 	.why-bank-container{
-		flex-flow: column nowrap;
-		justify-content: space-between;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-flow: column nowrap;
+		        flex-flow: column nowrap;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 	}
 	.why-bank-wrap:nth-of-type(n){
 		width: 90%;
 		padding-right: 0;
 	}
-}
 @media (max-width:420px){
 	.header-caption{
 		margin-top: 140px;
