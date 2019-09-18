@@ -1,6 +1,6 @@
 .header-caption__text{
 	padding: 0 10px;
-	font-size: 1.45em;
+	font-size: 36px;
 }
 .header-caption__text :first-child, .header-caption__text :last-child {
 	display: block;
@@ -191,7 +191,7 @@
 		font-size: 14px;	
 	}
 }
-@media (max-width:560px){}
+@media (max-width:560px){
 	.header-caption{
 		margin-top: 160px;
 	}
