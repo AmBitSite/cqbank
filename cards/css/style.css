@@ -1,5 +1,5 @@
 .header{
-    background-image: url(../img/cardsMainScreen.png);
+    background-image: url(../img/header-bg.png);
     height: 580px;
 }
 .header-caption_style{
@@ -20,4 +20,33 @@
     font-weight: normal;
     text-align: center;
     color: #ffffff;
+}
+.cardInfo, .unionpay, .visa, .mastercard{
+	box-sizing: border-box;
+	max-width: 960px;
+	margin: 0 auto 50px auto;
+	padding: 0;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+.mastercard{
+	margin-bottom: 150px;
+}
+.section-heder{
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 36px;
+	color:#4c4b4b
+}
+.imageBlock{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+.article-header, .article-text{
+	text-align: center;
+	font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	font-size: 17px;
+	color: #505050;
 }

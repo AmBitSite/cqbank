@@ -1,0 +1,78 @@
+@media (max-width:1230px){
+	.header-caption{
+		margin-top: 100px;
+	}
+}
+@media (max-width:1024px){
+	.header{
+		background-size: 100% 80%;
+	}
+	.header-caption{
+		margin-top: 140px;
+	}
+	.header-caption_style{
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.header-text{
+		width: 95%;
+	}
+	.cardInfo, .unionpay, .visa, .mastercard{
+		padding: 0 20px;
+	}
+}
+@media (max-width:900px){
+	.header{
+		background-size: 100% 100%;
+	}
+	.cardInfo{
+		margin-top: 60px;
+	}
+	.cardInfo, .unionpay, .visa, .mastercard{
+		widows: 100%;
+		padding: 0 40px;
+	}
+	.section-heder{
+		font-size: 28px;
+	}
+}
+@media (max-width:670px){
+	.header{
+		height: 380px;
+		background-size: cover;
+		background-position: 40% 50%;
+	}
+	.header-caption{
+		margin-top: 170px;
+	}
+	.header-caption_style{
+		font-size: 22px;
+	}
+	.header-text_style{
+		font-size: 14px;
+	}
+}
+@media (max-width:560px){
+	.header{
+		height: 420px;
+	}
+	.cardInfo__imageBlock>img{
+		width: 78vw;
+		height: calc(79vw*0.687640449);
+	}
+	.unionpay__imageBlock>img{
+		width: 74vw;
+		height: calc(75vw*0.848888889);
+	}
+	.visa__imageBlock>img{
+		width: 74vw;
+		height: calc(75vw*0.688888889);
+	}
+	.mastercard__imageBlock>img{
+		width: 81vw;
+		height: calc(81vw*0.691304348);
+	}
+}
+@media (max-width:420px){
+
+}

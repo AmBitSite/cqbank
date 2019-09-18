@@ -117,7 +117,7 @@ a{
 .nav__logo {
     width: 190px;
     height: 37px;
-    background-image: url(../common/img/logoWhiteHeader.png);
+    /* background-image: url(../common/img/logoWhiteHeader.png); */
     background-size: 190px 37px;
     background-repeat: no-repeat;
 }
