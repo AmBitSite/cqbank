@@ -1,0 +1,121 @@
+.header, .accountsTextBlock, .accountsTable{
+	font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+.header{
+	background-image: url(../img/header-bg.png);
+	height: 750px;
+}
+.header-caption_style{
+	font-size: 36px;
+}
+.accountsTextBlock, .accountsTable{
+	box-sizing: border-box;
+	max-width: 1000px;
+	margin: 0 auto 50px auto;
+}
+.accountsTextBlock{
+	padding: 0 30px;
+}
+.accountsTextBlock__header{
+	text-align: center;
+	font-size: 36px;
+	color: #4c4b4b;
+}
+.accountsTextBlock__text{
+	text-align: center;
+	font-size: 17px;
+	color: #505050;
+}
+.accountsTable{
+	box-sizing: border-box;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+}
+.accountsTable__bookmarks{
+	width: 1000px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: stretch;
+}
+.accountsTable__bookmarkContanier1, .accountsTable__bookmarkContanier2, 
+.accountsTable__bookmarkContanier3{
+	width: 33.33%;
+	height: 120px;
+	border-bottom: 1px solid #000;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	cursor: pointer;
+}
+.accountsTable__bookmarkName{
+	width: 100%;
+	height: 30%;
+	padding: 10px 0 0 0;
+	color: #212121;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	transition: color 0.5s;
+}
+.accountsTable__bookmarkContanier1:hover .accountsTable__bookmarkName, 
+.accountsTable__bookmarkContanier2:hover .accountsTable__bookmarkName, 
+.accountsTable__bookmarkContanier3:hover .accountsTable__bookmarkName{
+	color: #c3a870;
+	transition: color 0.5s;
+}
+.accountsTable__bookmarkPercent{
+	width: 100%;
+	height: 70%;
+	padding: 10px 0;
+	color: #b2b2b2;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 45px;
+	text-align: center;
+}
+.accountsTable__bookmarkContanier1.active, .accountsTable__bookmarkContanier2.active, 
+.accountsTable__bookmarkContanier3.active{
+	width: 33.3%;
+	border: 1px solid #000;
+	border-radius: 20px 20px 0 0;
+	border-bottom: none;
+}
+.accountsTable__bookmarkContanier1.active .accountsTable__bookmarkName, 
+.accountsTable__bookmarkContanier2.active .accountsTable__bookmarkName, 
+.accountsTable__bookmarkContanier3.active .accountsTable__bookmarkName{
+	color: #000;
+}
+.accountsTable__bookmarkContanier1.active .accountsTable__bookmarkPercent, 
+.accountsTable__bookmarkContanier2.active .accountsTable__bookmarkPercent, 
+.accountsTable__bookmarkContanier3.active .accountsTable__bookmarkPercent{
+	color: #c3a870;
+}
+.accountsTable__tableContent{
+	box-sizing: border-box;
+	width: 99.99%;
+	min-height: 500px;
+	margin-bottom: 150px;
+	padding: 50px;
+	border: 1px solid #000;
+	border-top: none;
+}
+.accountsTable__contentContanier1, 
+.accountsTable__contentContanier2, 
+.accountsTable__contentContanier3{
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 100%;
+	height: 0px;
+}
+.accountsTable__contentContanier1.active, 
+.accountsTable__contentContanier2.active, 
+.accountsTable__contentContanier3.active{
+	height: 100%;
+	/* transition: height 2.5s; */
+}
+.accountsTable__contentText {
+	color: #505050;
+}

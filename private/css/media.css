@@ -32,7 +32,7 @@
 		font-size: 32px;
 	}
 	.account__header{
-		margin-top: 20px;
+		margin-top: 80px;
 	}
 }
 @media (max-width:1024px){
@@ -42,8 +42,8 @@
 	.header-caption__text :first-child, .header-caption__text :last-child {
 		margin: 20px;
 	}
-	.account__header{
-		margin-top: 0px;
+	.section-header_style{
+		margin-top: 60px;
 	}
 }
 @media (max-width:900px){
