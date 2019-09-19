@@ -76,7 +76,7 @@
 @media (max-width:420px){
 	.header{
 		height: 470px;
-		background-position: 
+		background-position: 30% 30%; 
 	}
 	.cardInfo, .unionpay, .visa, .mastercard{
 		padding: 0 25px;
