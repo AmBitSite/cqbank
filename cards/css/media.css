@@ -57,22 +57,50 @@
 		height: 420px;
 	}
 	.cardInfo__imageBlock>img{
-		width: 78vw;
-		height: calc(79vw*0.687640449);
+		width: 73vw;
+		height: calc(73vw*0.687640449);
 	}
 	.unionpay__imageBlock>img{
-		width: 74vw;
-		height: calc(75vw*0.848888889);
+		width: 69vw;
+		height: calc(69vw*0.848888889);
 	}
 	.visa__imageBlock>img{
-		width: 74vw;
-		height: calc(75vw*0.688888889);
+		width: 69vw;
+		height: calc(69vw*0.688888889);
 	}
 	.mastercard__imageBlock>img{
-		width: 81vw;
-		height: calc(81vw*0.691304348);
+		width: 76vw;
+		height: calc(76vw*0.691304348);
 	}
 }
 @media (max-width:420px){
-
+	.header{
+		height: 470px;
+		background-position: 
+	}
+	.cardInfo, .unionpay, .visa, .mastercard{
+		padding: 0 25px;
+	}
+	.cardInfo__imageBlock>img{
+		width: 68vw;
+		height: calc(68vw*0.687640449);
+	}
+	.unionpay__imageBlock>img{
+		width: 64vw;
+		height: calc(64vw*0.848888889);
+	}
+	.visa__imageBlock>img{
+		width: 64vw;
+		height: calc(64vw*0.688888889);
+	}
+	.mastercard__imageBlock>img{
+		width: 68vw;
+		height: calc(68vw*0.691304348);
+	}
+	.section-heder{
+		font-size: 24px;
+	}
+	.article-text{
+		text-align: justify;
+	}
 }
