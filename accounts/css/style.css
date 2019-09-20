@@ -119,3 +119,20 @@
 .accountsTable__contentText {
 	color: #505050;
 }
+.accountsTable__contentTable{
+	width: 100%;
+	margin: 40px 0;
+	display: flex;
+	flex-flow: column nowrap;
+}
+.accountsTable__contentTableHeader, 
+.accountsTable__contentTableData {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+}
+.accountsTable__contentTableCellHeader, 
+.accountsTable__contentTableCellData {
+	width: 33.33%;
+}
