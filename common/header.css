@@ -9,6 +9,7 @@ a{
 .section-header_style{
     color:#4c4b4b;
     font-size: 35px;
+    font-family: 'Crimson Text', serif
 }
 .section-text_style{
     font-size: 17px;
@@ -93,14 +94,19 @@ a{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #fff;
     -webkit-transition: background-color .5s;
     transition: background-color .5s;
     position: fixed;
-    z-index: 4;
+    z-index: 1;
     top: 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+            color:#000;
+}
+.nav>a{
+    color:#000
 }
 .nav-block{
     display: -webkit-box;
@@ -112,14 +118,13 @@ a{
     align-items: center;
     width: 1160px;
 }
-.nav_scroll{
-     background-color: rgba(29, 28, 28, 0.4);
-}
 .nav__logo {
     width: 190px;
-    height: 37px;
-    /* background-image: url(../common/img/logoWhiteHeader.png); */
-    background-size: 190px 37px;
+    height: 61px;
+    background-image: url(../common/img/logoWhiteHeader.png);
+    background-size: cover;
+    background-size: 190px 61px;
+
     background-repeat: no-repeat;
 }
 .nav-wrapp {
@@ -149,6 +154,9 @@ a{
 .nav-wrapp__item:hover{
     border-bottom:2px solid #BCA066;
 }
+.nav-wrapp__link{
+    color:#000
+}
 .nav-right-container{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -164,6 +172,7 @@ a{
     margin-right: 20px;
     -webkit-transition: color .5s;
     transition: color .5s;
+    color:#000
 }
 .nav__login:hover{
     color:#bfa268;
@@ -221,12 +230,14 @@ a{
     line-height: 70%;
     letter-spacing: .21px;
     text-align: center;
+    font-family: 'Crimson Text', serif;
 }
 .header-caption-last {
     margin-top: 30px;
     font-size: 23px;
     line-height: 43px;
     font-weight: 400;
+    font-family: 'Crimson Text', serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -239,8 +250,8 @@ a{
     margin-top: 20px;
     width: 84px;
     padding: 13px 45px;
-    background-color:#bfa268;
-    background-image: -webkit-linear-gradient(top, #EEDCB1, #BCA066);
+    background-color:#38a1f7;
+    /* background-image: -webkit-linear-gradient(top, #EEDCB1, #BCA066); */
     border-radius: 15px;
     -webkit-transition: background-color 0.5s linear 0;
     transition: background-color 0.5s linear 0;
@@ -283,4 +294,178 @@ a{
 }
 .nav-wrap__item_active{
     border-bottom:2px solid #BCA066;
+}
+.hide-menu{
+	position: fixed;
+	justify-content: center;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: rgba(106, 106, 106, .95);
+	overflow-y: none;
+}
+.hide-menu-close{
+	width: 24px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	right: 30px;
+	border-radius: 3px;
+	margin-top: 50px;
+	transition: backround-color, .5s;
+	cursor: pointer;
+}
+.hide-menu-close:hover{
+	opacity: .3;
+}
+.hide-menu-close__item::after{
+	content: "";
+	display: block;
+	width: 24px;
+	height: 4px;
+	border-radius: 3px;
+	content: "";
+	background-color:#fff;
+	transform: rotate(80deg);
+}
+.hide-menu-close__item{
+	width: 24px;
+	height: 4px;
+	display: block;
+	border-radius: 3px;
+	background-color:#fff;
+	transform: rotate(50deg);
+	transition: backround-color, .5s;
+}
+.hide-menu-block{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-top:150px;
+	width: 400px;
+	height: 265px;
+	background-color: #f3f3f3;
+}
+.hide-menu__header{
+	width: auto;
+	height: 32px;
+	padding-top: 15px;
+	background-color: rgb(229, 229, 229);
+	background-image: linear-gradient(to top, rgba(131, 131, 131, 0.03) 0%, rgba(255, 255, 255, 0.03) 100%);
+	text-align: center;
+	font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #4d4d4d;
+	box-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.17), inset 0.5px 0.9px 0 white;
+}
+.hide-menu-block-login{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: space-around;
+}
+.hide-menu__input-style{
+	box-sizing: border-box;
+	height: 40px;
+	width: 370px;
+	background-color: #e0e0e0;
+	border-radius: 5px;
+	border:none;
+	padding-left: 40px;
+	color:#4d4d4d;
+	box-shadow: 0.5px 0.9px 0 white, inset 1px 1.7px 2px rgba(0, 0, 0, 0.07);
+}
+.hide-menu__input-style:focus::-webkit-input-placeholder { color:transparent; }
+.hide-menu__id{
+	margin: 23px 0;
+}
+.hide-menu__pass{
+	display: flex;
+	height: 40px;
+	width: 370px;
+	margin-bottom: 20px;
+}
+.hide-menu-btn-block{
+    display: flex;
+    flex-direction: row;
+	background-color: rgb(233, 233, 233);
+	height: 70px;
+	box-shadow: 0 -1px 0 rgba(207, 207, 207, 0.75), inset 0.5px 0.9px 0 white;
+}
+.hide-menu-btn-block__btn{
+	display: flex;
+	height: 35px;
+	padding: 0 35px;
+	background-color: rgb(229, 229, 229);
+	background-image: linear-gradient(to top, #c78800 0%, #ffae00 100%);
+	border: 1px solid #ffae00;
+	border-radius: 4px;
+	color: rgb(243, 243, 243);
+	font-size: 16px;
+	font-weight: 400;
+	margin: auto;
+	margin-top:25px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.hide-menu-btn-block__btn:active{
+    background-image: linear-gradient(to top, #c78800 0%, #c48600 100%);
+}
+input:focus{
+	outline: none;
+}
+.registration{
+    display: none;
+    position:fixed;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(106, 106, 106, .95);
+    font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+.registration__btn-close{
+    position: absolute;
+    right: 30px;
+    top:50px;    
+}
+.registration-block{
+    display: flex;
+    flex-direction: column;
+    margin: 170px auto;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(229, 229, 229);
+}
+.registration-block__header{
+    text-align: center;
+    color:#4d4d4d;
+}
+.registration-block-input{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content:space-between;
+    width: 100%;
+    align-items: center; 
+}
+.registration-block_input-style{
+    width: 250px;
+    height: 30px;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.registration-block_input-style:focus::-webkit-input-placeholder { color:transparent; }
+.registration-block-submit{
+    display: flex;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.registration-block__submit{
+    margin-right: 30px;
 }
