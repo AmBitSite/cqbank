@@ -1,6 +1,7 @@
 .header{
     background-image: url(../img/header.png);
-    height: 580px;
+		height: 750px;
+		background-size: 100% 100%;
 }
 .account{
     display: flex;

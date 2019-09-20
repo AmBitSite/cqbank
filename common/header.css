@@ -124,6 +124,7 @@ a{
     background-image: url(../common/img/logoWhiteHeader.png);
     background-size: cover;
     background-size: 190px 61px;
+
     background-repeat: no-repeat;
 }
 .nav-wrapp {
