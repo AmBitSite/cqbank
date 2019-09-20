@@ -1,6 +1,10 @@
+.header-caption {
+	max-width: 1200px;
+	margin-top: 250px;
+}
 .header-caption__text{
 	padding: 0 10px;
-	font-size: 36px;
+	font-size: 40px;
 }
 .header-caption__text :first-child, .header-caption__text :last-child {
 	display: block;
