@@ -1,3 +1,18 @@
+@media (max-width:2048px){
+	.header{
+		height: 650px;
+	}
+}
+@media (max-width:1920px){
+	.header{
+		height: 600px;
+	}
+}
+@media (max-width:1600px){
+	.header{
+		height: 520px;
+	}
+}
 @media (max-width:1400px){
 	.header{
 		height: 520px;
