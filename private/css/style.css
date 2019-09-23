@@ -26,26 +26,31 @@
 .account-block:nth-child(2){
     background-image: url(../img/1step.png);
 		background-position-x: 0%;
-    margin-bottom: 20px;
+		margin-bottom: 20px;
+		justify-content: flex-end;
 }
 .account-block:nth-child(3){
     background-image: url(../img/2step.png);
     background-size: 80%;
-    background-position: 100%;
-    margin-bottom: 20px;
+    background-position: 80%;
+		margin-bottom: 20px;
+		justify-content: space-around;
 } 
 .account-block:nth-child(4){
     background-image: url(../img/3step.png);
     background-size: 60%;
-    background-position-x: 0%;
-    margin-bottom: 20px;
-    
+    background-position-x: 15%;
+		margin-bottom: 20px;
+		padding-left: 80px; 
+    justify-content: flex-end;
 }
 .account-block:nth-child(5){
 		background-image: url(../img/4step.png);
 		background-size: 100%;
     background-position-x: 100%;
-    margin-bottom: 20px;
+		margin-bottom: 20px;
+		padding-right: 120px; 
+		justify-content: space-around;
 } 
 .account-block:nth-of-type(n){
 	background-position-y: 100%;
@@ -56,7 +61,7 @@
     width: 1000px;
     font-size: 24px;
 }
-.account-block__text_ml{
+/* .account-block__text_ml{
     margin-left: 50px;
 }
 .account-block__text_mr{
@@ -64,6 +69,9 @@
 }
 .account__btn_mb{
     margin-bottom: 70px;
+} */
+.account-block__text-sub{
+	font-size: 24px;
 }
 .our-client{
 		min-height: 620px;
@@ -74,13 +82,16 @@
 		background-size: cover;
 }
 .out-client__header{
-    margin-top:140px;
+		margin-top:140px;
+		font-size: 40px;
 }
 .our-client__text{
     margin-top:40px;
     display: inline-block;
-    width:850px;
-    text-align: center;
+    width:1200px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 36px;
 }
 .why-bank{
     display: flex;
@@ -90,11 +101,13 @@
 }
 .why-bank__header{
     margin-top: 140px;
-    margin-bottom: 50px;
+		margin-bottom: 50px;
+		font-size: 40px;
 }
 .why-bank-container{
     display: flex;
-    justify-content: center;
+		justify-content: center;
+		font-size: 24px;
 }
 .why-bank-wrap:nth-child(1){
     margin-right: 40px;
@@ -108,7 +121,9 @@
 }
 .why-bank-wrap__text{
     position: relative;
-    top:-5px;
+		top:-5px;
+		font-size: 24px;
+		line-height: 30px;
 }
 .why-bank-wrap__text_strong{
     font-weight: bold

@@ -3,7 +3,7 @@
 		height: 650px;
 	}
 	.header-caption{
-		margin-top: 250px;
+		margin-top: 220px;
 	}
 }
 @media (max-width:1920px){
@@ -16,7 +16,35 @@
 		height: 520px;
 	}
 	.header-caption{
-		margin-top: 200px;
+		margin-top: 160px;
+	}
+	.header-caption_style{
+		font-size: 36px;
+	}
+	.accountsTextBlock{
+		margin-bottom: 50px;
+	}
+	.accountsTextBlock__text, .accountsTable__contentText{
+		font-size: 17px;
+		line-height: 24px;
+	}
+	.accountsTextBlock__header{
+		margin-bottom: 50px;
+	}
+	.accountsTextBlock__text{
+		max-width: 750px;
+		margin: 20px auto;
+	}
+	.accountsTable__bookmarkContanier1, .accountsTable__bookmarkContanier2, 
+	.accountsTable__bookmarkContanier3{
+		height: 100px;
+	}
+	.accountsTable__bookmarkName{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.accountsTable__bookmarkPercent{
+		font-size: 36px;
 	}
 }
 @media (max-width:1400px){
@@ -30,7 +58,7 @@
 		max-width: 1000px;
 	}
 	.accountsTextBlock__header{
-		font-size: 24px;
+		font-size: 35px;
 	}
 	.accountsTextBlock__text{
 		font-size: 17px;
@@ -99,6 +127,9 @@
 	.header-caption{
 		margin-top: 160px;
 	}
+	.accountsTextBlock__header{
+		font-size: 30px;
+	}
 	.accountsTable{
 		margin: 0 50px 70px 50px;
 	}
@@ -124,7 +155,7 @@
 }
 @media (max-width:768px){
 	.accountsTextBlock__header{
-		font-size: 20px;
+		font-size: 28px;
 	}
 	.accountsTextBlock__text, .accountsTable__contentText{
 		font-size: 15px;
