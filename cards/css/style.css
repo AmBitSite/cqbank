@@ -1,16 +1,22 @@
 .header{
     background-image: url(../img/header-bg.png);
-    height: 580px;
+		height: 750px;
+		background-size: 100% 100%;
+}
+.header-caption{
+	margin-top: 250px;
 }
 .header-caption_style{
-    font-size: 35px;
+		font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 40px;
     color: #fff;
     margin-bottom: 60px;
     margin-top:15px;
 }
 .header-text{
-    width: 980px;
-    text-align: center;
+		font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    width: 900px;
+		text-align: center;
 }
 .header-text_style{
     color:#fff;
@@ -22,10 +28,11 @@
     color: #ffffff;
 }
 .cardInfo, .unionpay, .visa, .mastercard{
+	font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
-	max-width: 960px;
-	margin: 0 auto 50px auto;
+	max-width: 1200px;
+	margin: 50px auto 50px auto;
 	padding: 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
