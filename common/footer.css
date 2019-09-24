@@ -94,6 +94,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 0 20px;
+    filter: grayscale(1)
 }
 .bottom-outer-pay-img__item{
     margin-right: 15px;
