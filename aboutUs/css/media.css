@@ -50,11 +50,11 @@
 		height: 480px;
 	}
 	.header-caption_style{
-		font-size: 40px;
+		font-size: 36px;
 		margin-bottom: 20px;
 	}
 	.header-text__parag{
-		font-size: 18px;
+		font-size: 17px;
 		line-height: 28px;
 	}
 	.textSection__header{
@@ -65,7 +65,7 @@
 		line-height: 26px;
 	}
 	.textSection__text{
-		font-size: 18px;
+		font-size: 17px;
 		line-height: 28px;
 	}
 }
@@ -78,7 +78,6 @@
 		width: 90%;
 	}
 	.header-text__parag{
-		font-size: 17px;
 		line-height: 24px;
 	}
 	.textSection{
